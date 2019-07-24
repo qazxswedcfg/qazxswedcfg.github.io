@@ -98,7 +98,7 @@
 .main1 .content .main1-list {
     width: 100%;
     height: 440px;
-    background: skyblue;
+    /* background: skyblue; */
     margin-top: 53px;
 }
 
@@ -108,41 +108,118 @@
     float: left;
     margin-right: 42px;
     margin-bottom: 4px;
+    position: relative;
 }
 
-.main1 .content .main1-list .img1 {
-    background: url(../images/bus_tu4.jpg);
+.main1 .content .main1-list .main1-hou {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 0%;
+    background: #189bdd;
+    /* display: none; */
+    overflow: hidden;
+    transition: height 0.2s;
 }
 
-.main1 .content .main1-list .img2 {
-    background: url(../images/bus_tu2.jpg);
+.main1 .content .main1-list .main2-hou {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 0%;
+    background: #1767df;
+    /* display: none; */
+    overflow: hidden;
+    transition: height 0.2s;
 }
 
-.main1 .content .main1-list .img3 {
-    background: url(../images/bus_tu3.jpg);
+.main1 .content .main1-list .main3-hou {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 0%;
+    background: #fbcd13;
+    /* display: none; */
+    overflow: hidden;
+    transition: height 0.2s;
 }
 
-.main1 .content .main1-list .img4 {
-    background: url(../images/bus_tu5.jpg);
+.main1 .content .main1-list .main4-hou {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 0%;
+    background: #e31588;
+    /* display: none; */
+    overflow: hidden;
+    transition: height 0.2s;
 }
 
-.main1 .content .main1-list .img5 {
-    background: url(../images/bus_tu6.jpg);
+.main1 .content .main1-list .main5-hou {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 0%;
+    background: #f32524;
+    /* display: none; */
+    overflow: hidden;
+    transition: height 0.2s;
 }
 
-.main1 .content .main1-list .img6 {
-    background: url(../images/bus_tu1.jpg);
+.main1 .content .main1-list .main6-hou {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 0%;
+    background: #97c734;
+    ;
+    /* display: none; */
+    overflow: hidden;
+    transition: height 0.2s;
 }
 
-.main1 .content .main1-list div h6 {
-    width: 228px;
-    height: 71px;
-    font-size: 22px;
-    line-height: 71px;
-    text-align: center;
+.main1 .content .main1-list div:hover .main1-hou {
+    display: block;
+    height: 100%;
     color: white;
-    margin: 73px 0 0 73px;
 }
+
+.main1 .content .main1-list div:hover .main2-hou {
+    display: block;
+    height: 100%;
+    color: white;
+}
+
+.main1 .content .main1-list div:hover .main3-hou {
+    display: block;
+    height: 100%;
+    color: white;
+}
+
+.main1 .content .main1-list div:hover .main4-hou {
+    display: block;
+    height: 100%;
+    color: white;
+}
+
+.main1 .content .main1-list div:hover .main5-hou {
+    display: block;
+    height: 100%;
+    color: white;
+}
+
+.main1 .content .main1-list div:hover .main6-hou {
+    display: block;
+    height: 100%;
+    color: white;
+}
+
 
 .main1 .content .main1-list div .main1-1 {
     background: #189bdd;
@@ -167,6 +244,23 @@
 .main1 .content .main1-list div .main1-6 {
     background: #97c734;
 }
+
+.main1 .content .main1-list div h6 {
+    width: 228px;
+    height: 71px;
+    font-size: 22px;
+    line-height: 71px;
+    text-align: center;
+    color: white;
+    /* margin: 73px 0 0 73px; */
+    opacity: 0.92;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+
 
 
 
@@ -247,17 +341,51 @@
     /* background: gold; */
 }
 
-.main3 .main3-list div {
+.main3 .main3-list .main3-div {
     width: 283px;
     height: 211px;
     border: 1px solid white;
     border-bottom: none;
     float: left;
+    position: relative;
 }
 
-.main3 .main3-list div img {
+.main3 .main3-list .main3-div .main3-no {
+    width: 283px;
+    height: 211px;
+    border: 1px solid white;
+    border-bottom: none;
+    float: left;
+    display: none;
+    background: #189bdd;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    opacity: 0.9;
+}
+
+.main3 .main3-list .main3-div .main3-no img {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main3 .main3-list .main3-div .main3-no h2 {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin-top: 140px;
+}
+
+.main3 .main3-list .main3-div:hover .main3-no {
+    display: block;
+}
+
+.main3 .main3-list .main3-div .main3-bg {
     width: 100%;
     height: 100%;
+    display: block;
 }
 
 
@@ -474,9 +602,9 @@
 /* main6部分 */
 
 #box .main6 {
-    width: 100%;
+    width: 100%px;
     height: 224px;
-    background: #0067c9;
+    background: url(../images/blue-bg.png) center center;
     overflow: hidden;
 }
 
@@ -486,18 +614,18 @@
     border-right: 1px solid #0052a7;
     margin-top: 46px;
     float: left;
-    /* position: absolute; */
+    position: relative;
 }
 
 .main6 .line {
     display: block;
     width: 100%;
     height: 3px;
-    margin-top: -83px;
-    background: black;
+    background: url(../images/blue-bg.png);
     z-index: 999;
     /* float: left; */
-    /* position: relative; */
+    position: absolute;
+    top: 43px;
 }
 
 .main6 .main6-h5 {
@@ -522,6 +650,7 @@
     border-right: 1px solid #0052a7;
     margin-top: 46px;
     float: left;
+    position: relative;
 }
 
 .main6 .main6-right {
@@ -529,6 +658,7 @@
     height: 132px;
     margin-top: 46px;
     float: left;
+    position: relative;
 }
 
 
@@ -543,7 +673,7 @@
 #box .content1 {
     width: 1156px;
     height: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: auto;
     text-align: center;
 }
