@@ -1,0 +1,632 @@
+#box {
+    width: 100%;
+    height: 5302px;
+
+}
+
+#box .content {
+    width: 1140px;
+    height: 100%;
+    /* background: skyblue; */
+    margin: auto;
+    text-align: center;
+}
+
+
+
+
+
+
+/* header部分 */
+
+#box .header {
+    width: 100%;
+    height: 83px;
+}
+
+.header .content {
+    background: url(../images/logo.png) no-repeat -13px center;
+}
+
+.header .content ul {
+    height: 83px;
+    margin-left: 414px;
+}
+
+.header .content ul li {
+    float: left;
+    line-height: 83px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.header .content ul li .zhongwen {
+    font-size: 12px;
+    color: black;
+    display: inline-block;
+    width: 80px;
+    height: 12px;
+}
+
+.header .content ul li .yingwen {
+    display: none;
+    font-size: 12px;
+    color: black;
+    width: 80px;
+    height: 12px;
+}
+
+.header .content ul li:hover .zhongwen {
+    display: none;
+}
+
+.header .content ul li:hover .yingwen {
+    display: inline-block;
+}
+
+
+
+/* banner部分 */
+
+#box .banner {
+    width: 100%;
+    height: 638px;
+    background: url(../images/56f3527bb57ce.jpg) no-repeat center center;
+}
+
+
+
+
+/* main1部分 */
+
+#box .main1 {
+    width: 100%;
+    height: 726px;
+}
+
+.main1 .content .main1-title {
+    margin-top: 42px;
+}
+
+.main1 .content .p1 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 22px;
+    color: #666666;
+}
+
+.main1 .content .main1-list {
+    width: 100%;
+    height: 440px;
+    background: skyblue;
+    margin-top: 53px;
+}
+
+.main1 .content .main1-list div {
+    width: 352px;
+    height: 218px;
+    float: left;
+    margin-right: 42px;
+    margin-bottom: 4px;
+}
+
+.main1 .content .main1-list .img1 {
+    background: url(../images/bus_tu4.jpg);
+}
+
+.main1 .content .main1-list .img2 {
+    background: url(../images/bus_tu2.jpg);
+}
+
+.main1 .content .main1-list .img3 {
+    background: url(../images/bus_tu3.jpg);
+}
+
+.main1 .content .main1-list .img4 {
+    background: url(../images/bus_tu5.jpg);
+}
+
+.main1 .content .main1-list .img5 {
+    background: url(../images/bus_tu6.jpg);
+}
+
+.main1 .content .main1-list .img6 {
+    background: url(../images/bus_tu1.jpg);
+}
+
+.main1 .content .main1-list div h6 {
+    width: 228px;
+    height: 71px;
+    font-size: 22px;
+    line-height: 71px;
+    text-align: center;
+    color: white;
+    margin: 73px 0 0 73px;
+}
+
+.main1 .content .main1-list div .main1-1 {
+    background: #189bdd;
+}
+
+.main1 .content .main1-list div .main1-2 {
+    background: #1767df;
+}
+
+.main1 .content .main1-list div .main1-3 {
+    background: #fbcd13;
+}
+
+.main1 .content .main1-list div .main1-4 {
+    background: #e31588;
+}
+
+.main1 .content .main1-list div .main1-5 {
+    background: #f32524;
+}
+
+.main1 .content .main1-list div .main1-6 {
+    background: #97c734;
+}
+
+
+
+
+
+
+
+/* main2部分 */
+
+#box .main2 {
+    width: 100%;
+    height: 763px;
+    background: #ebeff1;
+}
+
+.main2 .main2-title {
+    margin-top: 42px;
+}
+
+.main2 .p2 {
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 26px;
+    color: #666666;
+}
+
+.main2 .main2-list {
+    margin-top: 56px;
+    width: 100%;
+    height: 504px;
+    /* background: greenyellow; */
+}
+
+.main2 .main2-list div {
+    width: 283px;
+    height: 166px;
+    border: 1px solid #ebeff1;
+    float: left;
+}
+
+.main2 .main2-list div .hou {
+    display: none;
+}
+
+.main2 .main2-list div:hover .qian {
+    display: none;
+}
+
+.main2 .main2-list div:hover .hou {
+    display: inline-block;
+}
+
+
+
+
+/* main3部分 */
+
+#box .main3 {
+    width: 100%;
+    height: 682px;
+}
+
+.main3 .main3-title {
+    margin-top: 42px;
+}
+
+.main3 .p3 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #666666;
+    margin-top: 26px;
+}
+
+.main3 .main3-list {
+    width: 100%;
+    height: 424px;
+    margin-top: 54px;
+    /* background: gold; */
+}
+
+.main3 .main3-list div {
+    width: 283px;
+    height: 211px;
+    border: 1px solid white;
+    border-bottom: none;
+    float: left;
+}
+
+.main3 .main3-list div img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* main4部分 */
+
+#box .main4 {
+    width: 100%;
+    height: 801px;
+    background: #68b0c9;
+}
+
+.main4 .main4-title {
+    margin-top: 42px;
+}
+
+.main4 .p4 {
+    font-size: 18px;
+    line-height: 18px;
+    color: white;
+    margin-top: 26px;
+}
+
+.main4 .main4-list {
+    width: 100%;
+    height: 543px;
+    /* background: greenyellow; */
+    margin-top: 55px;
+}
+
+.main4 .main4-list .main4-box {
+    width: 550px;
+    height: 166px;
+    margin-bottom: 15px;
+    float: left;
+    background: white;
+
+}
+
+.main4 .main4-list .main4-box .pg {
+    width: 170px;
+    height: 166px;
+
+    float: left;
+}
+
+.main4 .main4-list .main4-box .main4-right {
+    width: 332px;
+    height: 100%;
+    margin-right: 19px;
+    float: right;
+}
+
+.main4 .main4-h2 {
+    margin-top: 28px;
+    line-height: 16px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.main4 .p5 {
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 14px;
+    text-align: left;
+}
+
+.main4 .zuo {
+    font-size: 10px;
+    color: #cfcfda;
+    float: left;
+    display: block;
+    margin-top: 18px;
+}
+
+.main4 .you {
+    font-size: 10px;
+    color: #cfcfda;
+    float: right;
+    margin-top: 18px;
+    display: block;
+}
+
+
+/* main5部分 */
+
+#box .main5 {
+    width: 100%;
+    height: 912px;
+}
+
+.main5 .main5-title {
+    margin-top: 42px;
+}
+
+.main5 .p6 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #666666;
+    margin-top: 26px;
+}
+
+.main5 .main5-list {
+    width: 100%;
+    height: 160px;
+    /* background: skyblue; */
+    margin-top: 26px;
+}
+
+.main5 .main5-list .main5-1 {
+    width: 285px;
+    height: 160px;
+    border-bottom: 1px solid #e6e6e6;
+    float: left;
+}
+
+.main5 .main5-list .main5-1:hover #bg1 {
+    background: url(../images/exp_xtb.png) no-repeat -80px 0;
+}
+
+.main5 .main5-list .main5-1:hover {
+    border-bottom: 1px solid #0093dd;
+}
+
+.main5 .main5-list .main5-2 {
+    width: 285px;
+    height: 160px;
+    border-bottom: 1px solid #e6e6e6;
+    float: left;
+}
+
+.main5 .main5-list .main5-2:hover #bg2 {
+    background: url(../images/exp_xtb.png) no-repeat -80px -80px;
+}
+
+.main5 .main5-list .main5-2:hover {
+    border-bottom: 1px solid #0093dd;
+}
+
+.main5 .main5-list .main5-3 {
+    width: 285px;
+    height: 160px;
+    border-bottom: 1px solid #e6e6e6;
+    float: left;
+}
+
+.main5 .main5-list .main5-3:hover #bg3 {
+    background: url(../images/exp_xtb.png) no-repeat -80px -160px;
+}
+
+.main5 .main5-list .main5-3:hover {
+    border-bottom: 1px solid #0093dd;
+}
+
+.main5 .main5-list .main5-4 {
+    width: 285px;
+    height: 160px;
+    border-bottom: 1px solid #e6e6e6;
+    float: left;
+}
+
+.main5 .main5-list .main5-4:hover #bg4 {
+    background: url(../images/exp_xtb.png) no-repeat -80px -240px;
+}
+
+.main5 .main5-list .main5-4:hover {
+    border-bottom: 1px solid #0093dd;
+}
+
+#bg1 {
+    width: 80px;
+    height: 80px;
+    background: url(../images/exp_xtb.png) no-repeat 0 0;
+    margin: 30px 0 0 102px;
+}
+
+#bg2 {
+    width: 80px;
+    height: 80px;
+    background: url(../images/exp_xtb.png) no-repeat 0 -80px;
+    margin: 30px 0 0 102px;
+}
+
+#bg3 {
+    width: 80px;
+    height: 80px;
+    background: url(../images/exp_xtb.png) no-repeat 0 -160px;
+    margin: 30px 0 0 102px;
+}
+
+#bg4 {
+    width: 80px;
+    height: 80px;
+    background: url(../images/exp_xtb.png) no-repeat 0 -240px;
+    margin: 30px 0 0 102px;
+}
+
+.main5 .main5-list .main5-1 .p6 {
+    font-size: 16px;
+    margin-top: 18px;
+    color: #b2b2b2;
+}
+
+.main5 .main5-banner {
+    width: 1140px;
+    height: 461px;
+    margin-top: 50px;
+    background: url(../images/expe_liu_tu.png) no-repeat;
+}
+
+
+
+
+
+/* main6部分 */
+
+#box .main6 {
+    width: 100%;
+    height: 224px;
+    background: #0067c9;
+    overflow: hidden;
+}
+
+.main6 .main6-left {
+    width: 375px;
+    height: 132px;
+    border-right: 1px solid #0052a7;
+    margin-top: 46px;
+    float: left;
+    /* position: absolute; */
+}
+
+.main6 .line {
+    display: block;
+    width: 100%;
+    height: 3px;
+    margin-top: -83px;
+    background: black;
+    z-index: 999;
+    /* float: left; */
+    /* position: relative; */
+}
+
+.main6 .main6-h5 {
+    font-size: 68px;
+    line-height: 88px;
+    /* font-weight: bold; */
+    color: white;
+}
+
+
+
+.main6 .p7 {
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: 22px;
+    color: white;
+}
+
+.main6 .main6-center {
+    width: 378px;
+    height: 132px;
+    border-right: 1px solid #0052a7;
+    margin-top: 46px;
+    float: left;
+}
+
+.main6 .main6-right {
+    width: 385px;
+    height: 132px;
+    margin-top: 46px;
+    float: left;
+}
+
+
+/* footer部分 */
+
+#box .footer {
+    width: 100%;
+    height: 663px;
+    background: url(../images/footer_bj.jpg) no-repeat center center;
+}
+
+#box .content1 {
+    width: 1156px;
+    height: 100%;
+    border: 1px solid red;
+    margin: auto;
+    text-align: center;
+}
+
+.content1 .footer-title {
+    margin-top: 42px;
+}
+
+.content1 .p7 {
+    font-size: 24px;
+    line-height: 24px;
+    margin-top: 42px;
+    color: #dddddd;
+}
+
+.content1 .footer-list1 {
+    width: 100%;
+    height: 50px;
+    margin-top: 53px;
+    /* background: gold; */
+}
+
+.content1 .footer-list1 div {
+    height: 100%;
+    width: 268px;
+    margin-right: 28px;
+    float: left;
+    /* background: skyblue; */
+    text-align: left;
+}
+
+.content1 .footer-list1 .footer-2 {
+    margin-left: 12px;
+    /* background: red; */
+    width: 150px;
+    height: 100%;
+}
+
+.content1 .footer-list1 .footer-2 h6 {
+    font-size: 16px;
+    line-height: 16px;
+    color: #cbcbcb;
+}
+
+.footer-2 .p8 {
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: 10px;
+    color: white;
+}
+
+.content1 .footer-list2 {
+    width: 100%;
+    height: 82px;
+    margin-top: 44px;
+    /* background: gold; */
+}
+
+.content1 .footer-list2 div {
+    width: 266px;
+    height: 80px;
+    border: 1px solid #333333;
+    float: left;
+    margin-right: 28px;
+    text-align: left;
+}
+
+.content1 .footer-list2 div span {
+    font-size: 16px;
+    color: #aaaaaa;
+}
+
+.content1 .footer-list3 {
+    width: 100%;
+    height: 219px;
+    margin-top: 52px;
+    border-bottom: 1px solid #4d4d4d;
+}
+
+.content1 .footer-list3 .p9 {
+    font-size: 14px;
+    line-height: 30px;
+    color: #7f7f7f;
+    /* display: inline-block; */
+    text-align: left;
+}
