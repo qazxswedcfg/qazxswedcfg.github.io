@@ -13,10 +13,6 @@
 }
 
 
-
-
-
-
 /* header部分 */
 
 #box .header {
@@ -759,4 +755,50 @@
     color: #7f7f7f;
     /* display: inline-block; */
     text-align: left;
+}
+
+.ful {
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+}
+
+.fixebox .ful li {
+    width: 48px;
+    height: 48px;
+    /* border: 1px solid #ccc; */
+
+}
+
+
+.li1 {
+    background: url(..//images/fixedBoxBg.png) no-repeat 0 0;
+}
+
+.li2 {
+    background: url(..//images/fixedBoxBg.png) no-repeat 0 -47px;
+}
+
+.li3 {
+    background: url(..//images/fixedBoxBg.png) no-repeat 0 -94px;
+}
+
+.li4 {
+    background: url(..//images/fixedBoxBg.png) no-repeat 0 -141px;
+}
+
+.li1:hover {
+    background: url(..//images/fixedBoxBg.png) no-repeat -48px 0;
+}
+
+.li2:hover {
+    background: url(..//images/fixedBoxBg.png) no-repeat -48px -47px;
+}
+
+.li3:hover {
+    background: url(..//images/fixedBoxBg.png) no-repeat -48px -94px;
+}
+
+.li4:hover {
+    background: url(..//images/fixedBoxBg.png) no-repeat -48px -141px;
 }
