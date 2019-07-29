@@ -1,0 +1,313 @@
+.box {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    /* background: #407fc2; */
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    height: 0px;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.box .top {
+    width: 100%;
+    height: 87px;
+    background: #7ab5e9;
+    border-bottom: 3px solid #265fa6;
+    position: relative;
+}
+
+.box .bottom {
+    width: 100%;
+    position: absolute;
+    top: 90px;
+    bottom: 0px;
+    /* background: pink; */
+}
+
+.box .bottom .left {
+    width: 197px;
+    height: 100%;
+    background: #417ec8;
+}
+
+.box .bottom .right {
+    position: absolute;
+    top: 0px;
+    left: 197px;
+    right: 0px;
+    bottom: 0px;
+    background: white;
+}
+
+h1 {
+    font-size: 23px;
+    color: white;
+    /* font-weight: bold; */
+    height: 90px;
+    line-height: 90px;
+    margin-left: 30px;
+    float: left;
+}
+
+.top ul {
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+}
+
+.top ul li {
+    float: left;
+    text-align: center;
+    width: 95px;
+    height: 56px;
+    /* margin-right: 20px; */
+}
+
+.top ul li:hover {
+    background: url(../images/libj.png);
+}
+
+.top ul li a {
+    display: block;
+    width: 95px;
+    height: 56px;
+}
+
+.top ul li p {
+    font-size: 12px;
+    color: white;
+    line-height: 26px;
+}
+
+.top .tc {
+    background: white;
+    width: 247px;
+    height: 22px;
+    text-align: center;
+    position: absolute;
+    right: 30px;
+    top: 0;
+}
+
+.top .tc span {
+    font-size: 11px;
+    line-height: 22px;
+}
+
+.top .tc a {
+    font-size: 11px;
+    line-height: 22px;
+}
+
+/* .tc::before {
+    content: url(../images/before.png);
+} */
+.left-top {
+    width: 195px;
+    height: 26px;
+    border-right: 1px solid #407ec7;
+    border-bottom: 1px solid #4f93d0;
+}
+
+.nav1 {
+    width: 182px;
+    /* height: 35px; */
+    border-right: 1px solid #407ec7;
+    border-top: 1px solid #2869bd;
+    padding-left: 14px;
+}
+
+.nav1 span {
+    font-size: 12px;
+    line-height: 35px;
+
+}
+
+.nav1 ul {
+    margin-left: 37px;
+    display: none;
+}
+
+.nav1 ul li {
+    font-size: 12px;
+    line-height: 30px;
+    color: #b9ddff;
+}
+
+.nav1 .hou {
+    display: none;
+}
+
+.nav1 ul li::before {
+    content: url(../images/libefore.png);
+    margin-right: 4px;
+}
+
+.nav1:hover {
+    background: url(../images/left_hover.jpg) no-repeat;
+}
+
+.nav1:hover ul {
+    display: block;
+}
+
+.nav1:hover .hou {
+    display: inline-block;
+}
+
+.nav1:hover .qian {
+    display: none;
+}
+
+.yb {
+    width: 8px;
+    height: 100%;
+    background: url(../images/right-you.png);
+}
+
+#sq {
+    width: 9px;
+    height: 41px;
+    position: absolute;
+    left: 197px;
+    z-index: 10;
+    top: 50%;
+}
+
+.right-top {
+    height: 24px;
+    width: 100%;
+    /* background: red; */
+    /* margin-left: 14px; */
+    border-bottom: 1px solid #e3e3e3;
+    position: absolute;
+    top: 0;
+    left: 14px;
+}
+
+.right-top span {
+    font-size: 11px;
+    line-height: 24px;
+    color: #636363;
+}
+
+.right-center {
+    height: 51px;
+    width: 100%;
+    /* background: gold; */
+    /* margin-left: 14px; */
+    position: absolute;
+    top: 24px;
+    left: 14px;
+    line-height: 51px;
+
+}
+
+.right-center form {
+    display: inline-block;
+    margin-left: 28px;
+}
+
+.right-center span {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.right-center form label {
+    font-size: 12px;
+}
+
+.right-center form input {
+    width: 120px;
+    height: 24px;
+    border: 1px solid #bebebe;
+}
+
+.right-center form select {
+    width: 138px;
+    height: 22px;
+}
+
+#anniu {
+    width: 56px;
+    height: 22px;
+    border: 1px solid #bebebe;
+    background: #eceeed;
+    margin-left: 20px;
+}
+
+#t {
+    position: absolute;
+    top: 12px;
+    right: 28px;
+}
+
+.biao {
+    position: absolute;
+    top: 76px;
+    left: 14px;
+    right: 15px;
+    /* overflow: scroll; */
+    height: 450px;
+}
+
+.biao table {
+    width: 100%;
+    /* height: 350px; */
+    border: 1px solid #d6d6d6;
+    text-align: center;
+}
+
+.biao table tr:nth-child(2n) {
+    background: #f1f1f1;
+}
+
+.biao table .tr2 {
+    background: linear-gradient(white, #ccc);
+}
+
+.biao table .tr1 {
+    font-size: 11px;
+    font-weight: bold;
+    /* background: */
+}
+
+.biao table td {
+    font-size: 11px;
+    height: 30px;
+}
+
+.fanye {
+    height: 48px;
+    width: 100%;
+    /* background: red; */
+    line-height: 48px;
+    /* position: absolute; */
+    /* bottom: 43px; */
+    /* left: 14px; */
+    /* padding-right: 50px; */
+}
+
+.fanye input {
+    width: 18px;
+    height: 18px;
+    border: 1px solid #a3a3a3;
+    background: #f9f9f9;
+}
+
+.fanye span {
+    font-size: 11px;
+}
+
+.fanye input:hover {
+    background: #417eb7;
+    color: white;
+}

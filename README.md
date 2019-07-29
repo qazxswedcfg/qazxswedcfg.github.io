@@ -7,3 +7,6 @@
 
 <h2>07-27</h2>
 <a href="https://qazxswedcfg.github.io/work-xiaolu/html/xiaolu.html">小鹿</a>
+
+<h2>07-29</h2>
+<a href="https://qazxswedcfg.github.io/work/index.html">管理系统首页</a>
