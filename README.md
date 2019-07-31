@@ -10,3 +10,8 @@
 
 <h2>07-29</h2>
 <a href="https://qazxswedcfg.github.io/work/index.html">管理系统首页</a>
+
+<h2>07-30</h2>
+<a href="https://qazxswedcfg.github.io/code/html/安卓小小人.html">安卓小人</a>
+
+<a href="https://qazxswedcfg.github.io/code/html/表单框.html">表单框</a>
