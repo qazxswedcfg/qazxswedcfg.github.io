@@ -15,3 +15,8 @@
 <a href="https://qazxswedcfg.github.io/code/html/安卓小小人.html">安卓小人</a>
 
 <a href="https://qazxswedcfg.github.io/code/html/表单框.html">表单框</a>
+
+<h2>08-01</h2>
+<a href="https://qazxswedcfg.github.io/hunliji/index.html">婚礼纪局部</a>
+
+<a href="https://qazxswedcfg.github.io/soushi/index.html">搜石网</a>
