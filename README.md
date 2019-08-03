@@ -20,3 +20,9 @@
 <a href="https://qazxswedcfg.github.io/hunliji/index.html">婚礼纪局部</a>
 
 <a href="https://qazxswedcfg.github.io/soushi/index.html">搜石网</a>
+
+<h2>08-03</h2>
+
+<a href="https://qazxswedcfg.github.io/allpyra/index.html">移动端作业</a>
+
+<a href="https://qazxswedcfg.github.io/开源博客/index.html">开源博客</a>
