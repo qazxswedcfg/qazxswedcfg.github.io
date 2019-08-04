@@ -247,6 +247,10 @@ body {
     footer {
         height: 65px;
         // background: skyblue;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        background: white;
 
         ul {
             height: 100%;

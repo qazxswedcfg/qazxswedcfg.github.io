@@ -235,6 +235,10 @@ body {
 
 #box footer {
   height: 65px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background: white;
 }
 
 #box footer ul {
