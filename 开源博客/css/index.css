@@ -336,28 +336,35 @@ body {
     justify-content: center;
     align-items: center;
   }
+
   #box header .nav ul li {
     display: none;
   }
+
   #box header .nav ul span {
     display: inline-block;
     font-size: 30px;
   }
+
   #box main {
     flex-direction: column;
     align-items: center;
   }
+
   #box main .left {
     width: 95%;
     margin-right: 0px;
   }
+
   #box main .right {
     width: 95%;
   }
+
   #box footer .content {
     flex-direction: column;
     align-items: center;
   }
+
   #box footer .content .end-1 {
     width: 80%;
     margin: 0 !important;
