@@ -26,3 +26,9 @@
 <a href="https://qazxswedcfg.github.io/allpyra/index.html">移动端作业</a>
 
 <a href="https://qazxswedcfg.github.io/开源博客/index.html">开源博客</a>
+
+<h2>08-05</h2>
+
+<a href="https://qazxswedcfg.github.io/elm/index.html">饿了么首页</a>
+
+<a href="https://qazxswedcfg.github.io/elm/html/work02.html">饿了么副页</a>
