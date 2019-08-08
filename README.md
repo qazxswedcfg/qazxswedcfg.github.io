@@ -39,4 +39,4 @@
 
 <h2>08-07</h2>
 
-<a href="https://qazxswedcfg.github.io/京东移动端/index.html">移动端婚礼纪</a>
+<a href="https://qazxswedcfg.github.io/京东移动端/index.html">移动端京东</a>
