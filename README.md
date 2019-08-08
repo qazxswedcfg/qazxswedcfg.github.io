@@ -36,3 +36,7 @@
 <h2>08-06</h2>
 
 <a href="https://qazxswedcfg.github.io/移动端-婚礼纪/index.html">移动端婚礼纪</a>
+
+<h2>08-07</h2>
+
+<a href="https://qazxswedcfg.github.io/京东移动端/index.html">移动端婚礼纪</a>
