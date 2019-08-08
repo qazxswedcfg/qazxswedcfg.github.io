@@ -40,3 +40,7 @@
 <h2>08-07</h2>
 
 <a href="https://qazxswedcfg.github.io/京东移动端/index.html">移动端京东</a>
+
+<h2>08-08</h2>
+
+<a href="https://qazxswedcfg.github.io/爱奇艺移动端/index.html">移动端爱奇艺</a>
